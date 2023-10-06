@@ -1,70 +1,95 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Full Stack Project 
+## Vent Out  
 
-## Available Scripts
+[Deployment Link]
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+## Our Aspiration
+A place where you can vent out your frustration and annoyance.
+<br>
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## What Problem Does it Solve?
+Twitter, Instagram and Facebook and other social media sites have pages where people comment and have altercations with each other on daily basis. Vent out is a judgement free zone. where you can just scream out your thought through words and let it get out of your system without any judgement. 
+<br>
 
-### `npm test`
+## Main Functionality
+- Vent Out is a MERN stack web app. 
+- Mongoose Models for data modelings & dadtabase communication 
+- Axios for HTTP client requests(Javascript) & external API service
+- CRUD(Create, Read, Update, Delete) implementation
+- Multiple endpoints(routes) managements (GET/POST/PUT/DELETE method) 
+- Redux for State Manag
+- Session & Cookie management 
+- User login/out & Signup 
+- User Authentication & Authorization
+- CSS: Tailwind UI 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+## Backlog
+- Uploading photo
+- trending feature
+- Google or other authentication
+- profile photo
+- Weather API
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- OOP (Object Oriented Programming)
+- Node.JS
+- Express.Js
+- Redux
+- Mongo DB Atlas & Mongoose
+- Axios (external API)
+- Github 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Structure
+#### Models
+- User model (Ref: Post & Journal)
+- Tweet model (Ref: User & Comment)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Routes
+- Login/Logout routes
+- Signup route
+- Profile routes: CRUD actions
+- Post routes: CRUD actions
+  
+#### Views (hbs)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Login
+- Signup
+- User: Edit(profile)
+- Error
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Configuration
+- Session Configuration
+- Express App
 
-## Learn More
+#### 3rd Party API
+- Axios 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### MongoDB & Mongoose 
+- Database Atlas
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### .env
+- Port
+- API URL
+- MongoDB URL  
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Extra Links
+- [Github repository Link]
+- [Deployment Link](http://localhost:3000/)
+- [Figma Link]
+- [Slides Link]
