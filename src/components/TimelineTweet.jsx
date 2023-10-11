@@ -28,7 +28,7 @@ const TimelineTweet = () => {
 
     fetchData();
   }, [currentUser._id]);
-  console.log("Hello World");
+  // console.log("Hello World");
   console.log("Timeline", timeLine);
   return (
     <div className="mt-6">
