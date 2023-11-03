@@ -51,7 +51,7 @@ const Signup = () => {
   // };
 
   return (
-    <form className="bg-gray-200 flex flex-col py-12 px-8 rounded-lg w-8/12 md:w-6/12 mx-auto gap-10">
+    <form className="bg-red-100 flex flex-col py-12 px-8 rounded-lg w-8/12 md:w-6/12 mx-auto gap-10">
       <h2 className="text-3xl font-bold text-center">Sign Up</h2>
 
       <input
@@ -76,7 +76,7 @@ const Signup = () => {
 
       <button
         onClick={handleSignup}
-        className="text-xl py-2 rounded-full px-4 bg-blue-500 text-white"
+        className="text-xl py-2 rounded-full px-4 bg-pink-500 text-white"
         type="submit"
       >
         Sign up
