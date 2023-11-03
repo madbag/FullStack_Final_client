@@ -25,7 +25,7 @@ const Navbar = () => {
 
       <div className="px-0 md:px-6 mx-auto">
         <SearchIcon className="absolute m-2" /> 
-        <input type="text" className="bg-blue-100 rounded-full py-2 px-8" />
+        <input type="text" className="bg-red-100 rounded-full py-2 px-8" />
       </div>
     </div>
   );

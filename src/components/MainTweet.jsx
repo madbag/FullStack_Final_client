@@ -43,9 +43,9 @@ const MainTweet = () => {
 
         <button
           onClick={handleSubmit}
-          className="bg-blue-500 text-white py-2 px-4 rounded-full ml-auto"
+          className="bg-green-500 text-white py-2 px-4 rounded-full ml-auto"
         >
-          Deflate
+          Vent It
         </button>
       </form>
       <TimelineTweet />
