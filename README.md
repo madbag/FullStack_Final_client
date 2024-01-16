@@ -13,16 +13,13 @@ A place where you can vent out your frustration and annoyance.
 
 
 ## What Problem Does it Solve?
-Twitter, Instagram and Facebook and other social media sites have pages where people comment and have altercations with each other on daily basis. Vent out is a judgement free zone. where you can just scream out your thought through words and let it get out of your system without any judgement. 
+Twitter, Instagram Facebook and other social media sites have pages where people comment and have altercations with each other on a daily basis. Vent out is a judgement-free zone. where you can just scream out your thoughts through words and let them get out of your system without any judgment. 
 <br>
 
 ## Main Functionality
-- Vent Out is a MERN stack web app. 
-- Mongoose Models for data modelings & dadtabase communication 
-- Axios for HTTP client requests(Javascript) & external API service
 - CRUD(Create, Read, Update, Delete) implementation
-- Multiple endpoints(routes) managements (GET/POST/PUT/DELETE method) 
-- Redux for State Manag
+- Multiple endpoints(routes) management (GET/POST/PUT/DELETE method) 
+- Redux for State Management
 - Session & Cookie management 
 - User login/out & Signup 
 - User Authentication & Authorization
@@ -48,7 +45,7 @@ Twitter, Instagram and Facebook and other social media sites have pages where pe
 - Node.JS
 - Express.Js
 - Redux
-- Mongo DB Atlas
+- MongoDB 
 
 <br>
 
@@ -63,8 +60,7 @@ Twitter, Instagram and Facebook and other social media sites have pages where pe
 - Profile routes: CRUD actions
 - Post routes: CRUD actions
   
-#### Views (hbs)
-
+#### Views
 - Login
 - Signup
 - User: Edit(profile)
@@ -77,17 +73,13 @@ Twitter, Instagram and Facebook and other social media sites have pages where pe
 #### 3rd Party API
 - Axios 
 
-#### MongoDB & Mongoose 
+#### MongoDB  
 - Database Atlas
 
 #### .env
 - Port
-- API URL
 - MongoDB URL  
 
-
 ## Extra Links
-- [Github repository Link]
+- [Github backend repository Link](https://github.com/madbag/FullStack_Final_server)
 - [Deployment Link](https://ventout.onrender.com/)
-- [Figma Link]
-- [Slides Link]
