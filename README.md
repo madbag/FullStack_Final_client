@@ -1,9 +1,12 @@
 
 # Full Stack Project 
 ## Vent Out  
+
+[Deployment Link] To be updated
+
 <br>
 
-## Our Aspiration
+## Aspiration
 A place where you can vent out your frustration and annoyance.
 <br>
 <br>
@@ -14,9 +17,6 @@ Twitter, Instagram Facebook and other social media sites have pages where people
 <br>
 
 ## Main Functionality
-- Vent Out is a MERN stack web app. 
-- Mongoose Models for data modelling & database communication 
-- Axios for HTTP client requests(Javascript) & external API service
 - CRUD(Create, Read, Update, Delete) implementation
 - Multiple endpoints(routes) management (GET/POST/PUT/DELETE method) 
 - Redux for State Management
@@ -29,10 +29,11 @@ Twitter, Instagram Facebook and other social media sites have pages where people
 
 ## Backlog
 - Uploading photo
-- trending feature
+- Trending feature
 - Google or other authentication
-- profile photo
+- Profile photo
 - Weather API
+- Search option
 
 <br>
 
@@ -44,9 +45,7 @@ Twitter, Instagram Facebook and other social media sites have pages where people
 - Node.JS
 - Express.Js
 - Redux
-- Mongo DB Atlas & Mongoose
-- Axios (external API)
-- Github 
+- MongoDB 
 
 <br>
 
@@ -74,9 +73,13 @@ Twitter, Instagram Facebook and other social media sites have pages where people
 #### 3rd Party API
 - Axios 
 
-#### MongoDB & Mongoose 
+#### MongoDB  
 - Database Atlas
 
 #### .env
 - Port
 - MongoDB URL  
+
+## Extra Links
+- [Github backend repository Link](https://github.com/madbag/FullStack_Final_server)
+- [Deployment Link](https://ventout.onrender.com/)

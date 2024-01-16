@@ -38,7 +38,7 @@ const MainTweet = () => {
           onChange={(e) => setTweetText(e.target.value)}
           type="text"
           placeholder="Say it to the World!!"
-          className="bg-slate-200 rounded-lg w-full p-2"
+          className="bg-red-100 rounded-lg w-full p-2"
         ></textarea>
 
         <button
