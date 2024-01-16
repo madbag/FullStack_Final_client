@@ -6,7 +6,7 @@ import { loginStart, loginSuccess, loginFailed } from "../redux/userSlicer";
 
 import { useNavigate, Link } from "react-router-dom";
 
-const URL = process.env.REACT_APP_API_URL;
+// const URL = process.env.http://localhost:3000;
 
 const Signin = () => {
   const [username, setUsername] = useState("");
@@ -17,11 +17,11 @@ const Signin = () => {
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    console.log("anything");
+    console.log("testing");
 
     dispatch(loginStart());
     try {
-      const res = await axios.post(`${URL}/api/auth/signin`, {
+      const res =await axios.post("http://localhost:8000/api/auth/signin", {
         username,
         password,
       });

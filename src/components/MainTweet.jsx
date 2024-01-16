@@ -4,7 +4,7 @@ import TimelineTweet from "../components/TimelineTweet";
 import { useSelector } from "react-redux";
 import axios from "axios";
 
-const URL = process.env.REACT_APP_API_URL;
+// const URL = process.env.http://localhost:8000;
 
 const MainTweet = () => {
   const [tweetText, setTweetText] = useState("");
@@ -14,7 +14,7 @@ const MainTweet = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const submitTweet = await axios.post(`${URL}/api/tweets`, {
+      const submitTweet = await axios.post("http://localhost:8000/api/tweets", {
         userId: currentUser._id,
         description: tweetText,
       });

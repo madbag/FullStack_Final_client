@@ -37,6 +37,7 @@ Twitter, Instagram and Facebook and other social media sites have pages where pe
 - Profile photo
 - Weather API
 - Search option
+- Responsive Mobile layout
 
 <br>
 
@@ -88,6 +89,6 @@ Twitter, Instagram and Facebook and other social media sites have pages where pe
 
 ## Extra Links
 - [Github repository Link]
-- [Deployment Link](https://ventout.onrender.com/)
+- [Deployment Link](http://localhost:8000/)
 - [Figma Link]
 - [Slides Link]

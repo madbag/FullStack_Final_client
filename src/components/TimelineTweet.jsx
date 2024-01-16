@@ -11,13 +11,13 @@ const TimelineTweet = () => {
 
   const { currentUser } = useSelector((state) => state.user); //destructured
 
-  const URL = process.env.REACT_APP_API_URL;
+  // const URL = process.env.http://localhost:8000;
 
   useEffect(() => {
     const fetchData = async () => {
       try {
         const timelineTweets = await axios.get(
-          `${URL}/api/tweets/timeline/${currentUser._id}` //userID in the underscore ID
+          `http://localhost:8000/api/tweets/timeline/${currentUser._id}` //userID in the underscore ID
         );
 
         setTimeLine(timelineTweets.data);
