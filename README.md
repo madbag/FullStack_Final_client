@@ -34,6 +34,7 @@ Twitter, Instagram Facebook and other social media sites have pages where people
 - Profile photo
 - Weather API
 - Search option
+- Responsive Mobile layout
 
 <br>
 
@@ -81,5 +82,12 @@ Twitter, Instagram Facebook and other social media sites have pages where people
 - MongoDB URL  
 
 ## Extra Links
+<<<<<<< HEAD
+- [Github repository Link]
+- [Deployment Link](http://localhost:8000/)
+- [Figma Link]
+- [Slides Link]
+=======
 - [Github backend repository Link](https://github.com/madbag/FullStack_Final_server)
 - [Deployment Link](https://ventout.onrender.com/)
+>>>>>>> c6919e0366874b45a333c6ee2daf506309cc48aa

@@ -11,9 +11,7 @@ const EditProfile = ({ setOpen }) => {
   const navigate = useNavigate();
 
   const handleDelete = async () => {
-    await axios.delete(
-      `https://ventout.onrender.com/api/users/${currentUser._id}`
-    );
+    await axios.delete(`http://localhost:8000/api/users/${currentUser._id}`);
     dispatch(logout());
     navigate("/signup");
   };
@@ -23,7 +21,7 @@ const EditProfile = ({ setOpen }) => {
     try {
       // Make an API request to update the username
       const response = await axios.put(
-        `https://ventout.onrender.com/api/users/${currentUser._id}`,
+        `http://localhost:8000/api/users/${currentUser._id}`,
         {
           username: newUsername,
         }

@@ -23,10 +23,10 @@ const Profile = () => {
     const fetchData = async () => {
       try {
         const userTweets = await axios.get(
-          `https://ventout.onrender.com/api/tweets/user/all/${id}`
+          `http://localhost:8000/api/tweets/user/all/${id}`
         );
         const userProfile = await axios.get(
-          `https://ventout.onrender.com/api/users/find/${id}`
+          `http://localhost:8000/api/users/find/${id}`
         );
 
         setUserTweets(userTweets.data);
@@ -46,7 +46,7 @@ const Profile = () => {
     if (!currentUser?.following.includes(id)) {
       try {
         const follow = await axios.put(
-          `https://ventout.onrender.com/api/users/follow/${id}`,
+          `http://localhost:8000/api/users/follow/${id}`,
           {
             id: currentUser?._id,
           }
@@ -58,7 +58,7 @@ const Profile = () => {
     } else {
       try {
         const unfollow = await axios.put(
-          `https://ventout.onrender.com/api/users/unfollow/${id}`,
+          `http://localhost:8000/api/users/unfollow/${id}`,
           {
             id: currentUser?._id,
           }

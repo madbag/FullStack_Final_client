@@ -4,7 +4,7 @@ import axios from "axios";
 import { useSelector } from "react-redux"; //cannot see this page if not logged in
 import Tweet from "./Tweet";
 
-const URL = process.env.REACT_APP_API_URL;
+// const URL = process.env.http://localhost:8000;
 
 const ExploreTweets = () => {
   const [explore, setExplore] = useState(null);
@@ -13,7 +13,9 @@ const ExploreTweets = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const exploreTweets = await axios.get(`${URL}/api/tweets/explore`);
+        const exploreTweets = await axios.get(
+          "http://localhost:8000/api/tweets/explore"
+        );
         setExplore(exploreTweets.data);
       } catch (err) {
         console.log("error", err);
