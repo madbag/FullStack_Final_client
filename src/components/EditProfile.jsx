@@ -7,13 +7,12 @@ import axios from "axios";
 const EditProfile = ({ setOpen }) => {
   const { currentUser } = useSelector((state) => state.user);
   const [newUsername, setNewUsername] = useState(""); // State for the new username
-
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
   const handleDelete = async () => {
-    const deleteProfile = await axios.delete(
-      `http://localhost:8000/api/users/${currentUser._id}`
+    await axios.delete(
+      `https://ventout.onrender.com/api/users/${currentUser._id}`
     );
     dispatch(logout());
     navigate("/signup");
@@ -24,7 +23,7 @@ const EditProfile = ({ setOpen }) => {
     try {
       // Make an API request to update the username
       const response = await axios.put(
-        `http://localhost:8000/api/users/${currentUser._id}`,
+        `https://ventout.onrender.com/api/users/${currentUser._id}`,
         {
           username: newUsername,
         }

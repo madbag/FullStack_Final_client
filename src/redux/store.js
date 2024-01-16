@@ -1,6 +1,5 @@
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
 import userReducer from "./userSlicer.js";
-
 import {
   persistStore,
   persistReducer,

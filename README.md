@@ -2,11 +2,11 @@
 # Full Stack Project 
 ## Vent Out  
 
-[Deployment Link]
+[Deployment Link] To be updated
 
 <br>
 
-## Our Aspiration
+## Aspiration
 A place where you can vent out your frustration and annoyance.
 <br>
 <br>
@@ -32,10 +32,11 @@ Twitter, Instagram and Facebook and other social media sites have pages where pe
 
 ## Backlog
 - Uploading photo
-- trending feature
+- Trending feature
 - Google or other authentication
-- profile photo
+- Profile photo
 - Weather API
+- Search option
 
 <br>
 
@@ -47,10 +48,7 @@ Twitter, Instagram and Facebook and other social media sites have pages where pe
 - Node.JS
 - Express.Js
 - Redux
-- Mongo DB Atlas & Mongoose
-- Axios (external API)
-- Github 
-
+- Mongo DB Atlas
 
 <br>
 
@@ -90,6 +88,6 @@ Twitter, Instagram and Facebook and other social media sites have pages where pe
 
 ## Extra Links
 - [Github repository Link]
-- [Deployment Link](http://localhost:3000/)
+- [Deployment Link](https://ventout.onrender.com/)
 - [Figma Link]
 - [Slides Link]

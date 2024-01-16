@@ -4,9 +4,7 @@ import axios from "axios";
 import { useDispatch } from "react-redux";
 import { loginStart, loginSuccess, loginFailed } from "../redux/userSlicer";
 
-import { useNavigate} from "react-router-dom";
-
-
+import { useNavigate } from "react-router-dom";
 
 const Signup = () => {
   const [username, setUsername] = useState("");
@@ -21,11 +19,14 @@ const Signup = () => {
     dispatch(loginStart());
 
     try {
-      const res = await axios.post(`http://localhost:8000/api/auth/signup`, {
-        username,
-        email,
-        password,
-      });
+      const res = await axios.post(
+        `https://ventout.onrender.com/api/auth/signup`,
+        {
+          username,
+          email,
+          password,
+        }
+      );
       dispatch(loginSuccess(res.data));
       navigate("/signin");
     } catch (err) {
