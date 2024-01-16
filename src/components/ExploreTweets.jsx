@@ -14,7 +14,7 @@ const ExploreTweets = () => {
     const fetchData = async () => {
       try {
         const exploreTweets = await axios.get(
-          "http://localhost:8000/api/tweets/explore"
+          "https://ventout.onrender.com/api/tweets/explore"
         );
         setExplore(exploreTweets.data);
       } catch (err) {

@@ -17,7 +17,7 @@ const TimelineTweet = () => {
     const fetchData = async () => {
       try {
         const timelineTweets = await axios.get(
-          `http://localhost:8000/api/tweets/timeline/${currentUser._id}` //userID in the underscore ID
+          `https://ventout.onrender.com/api/tweets/timeline/${currentUser._id}` //userID in the underscore ID
         );
 
         setTimeLine(timelineTweets.data);

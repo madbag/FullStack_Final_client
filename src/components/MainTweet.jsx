@@ -14,7 +14,7 @@ const MainTweet = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const submitTweet = await axios.post("http://localhost:8000/api/tweets", {
+      const submitTweet = await axios.post("https://ventout.onrender.com/api/tweets", {
         userId: currentUser._id,
         description: tweetText,
       });
