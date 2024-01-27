@@ -1,6 +1,6 @@
 
 # Full Stack Project 
-#[Vent Out](https://ventout.netlify.app/)
+[Vent Out](https://ventout.netlify.app/)
 
 <br>
 
