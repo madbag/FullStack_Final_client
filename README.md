@@ -1,8 +1,6 @@
 
 # Full Stack Project 
-## Vent Out  
-
-[Deployment Link] To be updated
+## [Vent Out] (https://ventout.netlify.app/)
 
 <br>
 
@@ -83,4 +81,4 @@ Twitter, Instagram Facebook and other social media sites have pages where people
 
 ## Extra Links
 - [Github backend repository Link](https://github.com/madbag/FullStack_Final_server)
-- [Deployment Link](https://ventout.onrender.com/)
+- [Deployment Link](https://ventout.netlify.app/)
