@@ -14,7 +14,7 @@ const Navbar = () => {
           <img
             src="/LOGO.png"
             alt="Vent_Out_Logo"
-            width={"40px"}
+            width={"100px"}
             className="ml-8"
           />
         </Link>
