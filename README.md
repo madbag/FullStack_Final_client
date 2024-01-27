@@ -2,8 +2,6 @@
 # Full Stack Project 
 [Vent Out](https://ventout.netlify.app/)
 
-<br>
-
 ## Aspiration
 A place where you can vent out your frustration and annoyance.
 <br>
