@@ -19,7 +19,7 @@ const Signup = () => {
     dispatch(loginStart());
 
     try {
-      const res = await axios.post(`http://localhost:8000/api/auth/signup`, {
+      const res = await axios.post(`https://ventout1.onrender.com/api/auth/signup`, {
         username,
         email,
         password,

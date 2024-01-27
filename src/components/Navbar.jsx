@@ -12,9 +12,9 @@ const Navbar = () => {
       <div className="mx-auto md:mx-0">
         <Link to="/">
           <img
-            src="/Logo.png"
-            alt="Twitter Logo"
-            width={"40px"}
+            src="/LOGO.png"
+            alt="Vent_Out_Logo"
+            width={"100px"}
             className="ml-8"
           />
         </Link>
