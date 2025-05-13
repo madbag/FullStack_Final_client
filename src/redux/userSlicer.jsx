@@ -28,7 +28,6 @@ export const userSlice = createSlice({
     changeUsername: (state, action) => {
       state.currentUser.username = action.payload;
     },
-
     following: (state, action) => {
       if (state.currentUser.following.includes(action.payload)) {
         state.currentUser.following.splice(

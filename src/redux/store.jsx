@@ -1,4 +1,4 @@
-import { configureStore, combineReducers } from "@reduxjs/toolkit";
+import { configureStore, combineReducers } from "@reduxjs/toolkit"; //used for creating Redux store
 import userReducer from "./userSlicer.js";
 import {
   persistStore,

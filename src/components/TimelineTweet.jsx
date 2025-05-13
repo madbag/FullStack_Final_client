@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios"; //for fetching the data
 
 import { useSelector } from "react-redux"; //store to see who is logged in
-import Tweet from "../components/Tweet";
+import Tweet from "./Tweet";
 
 const TimelineTweet = () => {
   const [timeLine, setTimeLine] = useState(null);
@@ -17,7 +17,7 @@ const TimelineTweet = () => {
     const fetchData = async () => {
       try {
         const timelineTweets = await axios.get(
-          `https://ventout1.onrender.com/api/tweets/timeline/${currentUser._id}` //userID in the underscore ID
+          `https://ventout.onrender.com/api/tweets/timeline/${currentUser._id}` //userID in the underscore ID
         );
 
         setTimeLine(timelineTweets.data);

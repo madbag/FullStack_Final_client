@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import TimelineTweet from "../components/TimelineTweet";
+import TimelineTweet from "./TimelineTweet";
 
 import { useSelector } from "react-redux";
 import axios from "axios";
@@ -14,10 +14,13 @@ const MainTweet = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const submitTweet = await axios.post("https://ventout1.onrender.com/api/tweets", {
-        userId: currentUser._id,
-        description: tweetText,
-      });
+      const submitTweet = await axios.post(
+        "https://ventout.onrender.com/api/tweets",
+        {
+          userId: currentUser._id,
+          description: tweetText,
+        }
+      );
 
       console.log("Tweet submitted successfully:", submitTweet);
 
